@@ -327,21 +327,7 @@ body {
   padding: 10px;
 }
 
-/* .email {
-  color: #6c757d;
-}
-
-.email:link,
-.email:visited {
-  text-decoration: none;
-}
-.email:hover,
-.email:active {
-  text-decoration: none;
-  color: rgba(0, 0, 0, 0.9);
-} */
-
-.home-btn-large {
+/* .home-btn-large {
   font-size: 2.5em;
   font-weight: bold;
   color: rgba(0, 0, 0, 0.9);
@@ -352,6 +338,41 @@ body {
   height: 80px;
   border: solid rgb(132, 79, 15);
   border-radius: 8px;
+} */
+
+.back-to-top:link,
+.back-to-top:visited {
+  text-decoration: none;
+  background-color: #fddca9;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.back-to-top:hover,
+.back-to-top:active {
+  text-decoration: none;
+  background-color: #fddca9;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.up-chevron {
+  border: solid black 3px;
+  border-radius: 20%;
+  width: 50px;
+  height: 50px;
+}
+
+.up-chevron:link,
+.up-chevron:visited {
+  text-decoration: none;
+  background-color: #fddca9;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.up-chevron:hover,
+.up-chevron:active {
+  text-decoration: none;
+  background-color: #fddca9;
+  color: rgba(0, 0, 0, 0.9);
 }
 
 .email-logo {
