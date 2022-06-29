@@ -30,8 +30,7 @@
   <body>
     <!-- NAV BAR -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <!-- <a class="navbar-brand" href="#">IF</a> -->
-      <a href="index.html" class="home-btn">IF</a>
+        <a href="index.html" class="home-btn">IF</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -46,7 +45,7 @@
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
           <a class="nav-item nav-link" href="#biograph">Bio </a>
-          <a class="nav-item nav-link" href="projects.html">Projects</a>
+          <a class="nav-item nav-link" href="projects.html">Portfolio</a>
           <a class="nav-item nav-link" href="#contact">Contact</a>
         </div>
       </div>
@@ -54,24 +53,52 @@
     <!-- END NAV -->
     <!-- LANDING -->
     <div class="landing">
-      <p class="landing-header">Hi!</p>
-      <p class="landing-text1">I'm Ilya Flaks</p>
-      <p class="landing-text2">aspiring Web Developer</p>
-    </div>
-    <!-- END LANDING -->
-    <!-- YOUTUBE VIDEO -->
-    <!-- <div class="whitespace"></div> -->
+      <div class="landing-hello">
+        <!-- <div class="type-container"> -->
 
-    <div class="video-intro">
-      <embed
-        width="588"
-        height="441"
+          <div class="type-container landing-header"><h1 class="typed1">Hi,</h1></div><br />
+          <div class="type-container landing-text1"><h1 class="typed2">I'm Ilya Flaks</h1></div><br />
+          <div class="type-container landing-text2"><div class="typed3">aspiring Web Developer</div></div><br />
+        <!-- </div> -->
+      </div> 
+          <!-- <div class="landing-hello">
+          <div class="type-container"><h1 class="typed1">Hi,</h1></div><br />
+          <div class="type-container"><h1 class="typed2">I'm Ilya Flaks</h1></div><br />
+          <div class="type-container"><div class="typed3">Aspiring Web Developer</div><br />
+      </div>  -->
+    </div>
+    <div>
+      <a class="chevron" href="#video">
+
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+        </svg>
+      </a>
+     
+  </div>
+    <!-- END LANDING -->
+
+    <!-- YOUTUBE VIDEO -->
+    <div class="video-container" id="video">
+      <div class="portfolio-link">
+        <a href="projects.html" class="portfolio-btn"
+          >Check out some of the projects I've worked on!</a
+        >
+      </div>
+    </div>
+    <div class="video-intro" >
+
+        <embed
+        class="embedded-video"
+        
         src="https://www.youtube.com/embed/TwJ7cg10GcY"
-      >
+        >
       </embed>
     </div>
     <!-- BIOGRAPHY -->
-    <div class="whitespace"></div>
+    <div class="whitespace">
+
+    </div>
     <div class="bio" id="biograph">
       <div class="about"><h2>About me</h2></div>
       <div class="portrait">
@@ -115,13 +142,13 @@
         </p>
       </div>
     </div>
-    <!-- Link to portfolia -->
-    <div class="whitespace"></div>
+    <!-- Link to portfolio -->
+    <!-- <div class="whitespace"></div>
     <div class="portfolio-link">
       <a href="projects.html" class="portfolio-btn"
         >Check out some of the projects I worked on!</a
       >
-    </div>
+    </div> -->
 
     <!-- Contact -->
     <div class="whitespace"></div>
@@ -132,9 +159,16 @@
         <p class="mt-5 mb-3 text-muted">
           Copyright &copy; 2022<br />by Ilya Flaks
         </p>
-        <a href="mailto:ilyaflaks@gmail.com" class="email"
-          >ilyaflaks@gmail.com</a
-        >
+
+      </div>
+      <div class="logo-cell">
+        <a href="mailto:ilyaflaks@gmail.com"
+        class="email-link"  
+        >    <svg xmlns="http://www.w3.org/2000/svg" class="email-logo" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207" />
+          </svg></a
+        ><br />
+        E-mail
       </div>
       <div class="logo-cell">
         <a href="https://github.com/ilyaflaks"
@@ -152,7 +186,8 @@
             src="linked-in-logo.png"
             class="logo-img"
             alt="Linked-In Logo"
-            width="110px" /></a
+            width="116px"
+            height="102px" /></a
         ><br />
 
         Linked In
@@ -165,7 +200,7 @@
             src="twitter-logo.png"
             class="logo-img"
             alt="Twitter Logo"
-            width="100px" /></a
+            width="105px" /></a
         ><br />Twitter
       </div>
     </div>
