@@ -1,0 +1,8 @@
+Hello! My name is Ilya Flaks. I am currently studying to become a full-stack Web Developer at MITxPro Bootcamp. 
+Right now I am at the early stages of my journey to become a professional developer, but I have already acquired some skills in Javascript, HTML and CSS. By the end of 2022 I should become proficient in the MERN stack as well. As you might already know, that stands for MongoDb, Express, React and Node.js. 
+
+A little bit about myself: I first started creating web pages with simple HTML and CSS for fun around 2001 before things like CSS Grid and Flexbox even existed. At the time I was more interested in studying natural sciences than computer science so I did not pursue this further, unfotunaltely and instead got a degree in Biology. After college I spent a decade working in the food industry as a flavor chemist and eventually realised that that job no longer brings me joy and I'm ready for a new career. That's what brings me here!
+
+I live in Los Angeles, California though I'm originally from Saint Petersburg, Russia. On my free time I enjoy playing drums and guitar, baking and I'm always looking for new skills to pick up. 
+Thanks for visiting my portfolio page, I hope you enjoy it.
+Bye!  
