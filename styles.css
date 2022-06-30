@@ -9,6 +9,7 @@ body {
 
 .bg-light {
   background: linear-gradient(to top, #ffebcdba, #ffebcdcc), url(floor-tile.png);
+   filter: drop-shadow(0 0 0.25rem black);
 }
 .nav-item:visited {
   transition: all 0.3s;
