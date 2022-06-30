@@ -520,6 +520,8 @@ body {
   }
   .landing-hello {
     left: 20px;
+
+    top: 200px;
   }
   .landing-header {
     font-size: 3.5em;
@@ -529,7 +531,7 @@ body {
     font-size: 0.06em;
   }
   .portfolio-link {
-    width: 100%;
+    width: 80%;
   }
 
   .video-intro {
