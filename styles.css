@@ -508,7 +508,7 @@ body {
     grid-template-rows: 1fr 4fr 5fr 10fr;
   }
   .h-6 {
-    bottom: 65px;
+    bottom: 20px;
   }
 
   .landing {
